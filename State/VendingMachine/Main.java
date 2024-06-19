@@ -36,7 +36,7 @@ public class Main {
             machine.getState().insertCoins( machine,100);
             machine.getState().insertMoreCoins(machine,100);
             machine.getState().selectProduct(machine);
-            machine.getState().chooseProduct(machine, 0);
+            machine.getState().chooseProduct(machine, 4);
             machine.getState().collectProduct(machine);
         }
         catch(Exception e){
